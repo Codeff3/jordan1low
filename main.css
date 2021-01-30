@@ -43,17 +43,15 @@ button:focus{
 .clear{clear: both;}
 
 .logo-desktop{
-    margin-top:-4%;
+    margin-top:3.6%;
     display: inline-block;
+    margin-bottom: 3%;
 }
 
-.logo-desktop img{
-    width: 150px;
-    transition: 1s;
-}
-
-.logo-desktop img:hover{
-    transform: scale(1.1);
+.logo-desktop h1{
+    color: white;
+    display: inline-block;
+    border-width: 100% ;
 }
 
 .center-menu li{
@@ -234,17 +232,20 @@ button:focus{
     }
 
     .logo-mobile{
+        margin-top:3%;
+        margin-bottom: 10%;
         text-align: center;
     }
-
-    .logo-mobile img{
-        width: 180px;
-        margin-bottom: 5%;
-        transition: 1s;
+    
+    .logo-mobile h1{
+        color: white;
+        display: inline-block;
+        border-width: 100% ;
+        text-decoration: none;
     }
-
-    .logo-mobile img:hover{
-        transform: scale(1.1); 
+    
+    .logo-mobile a{
+        color: white !important;
     }
 
     .center-menu-mobile ul{
@@ -322,7 +323,7 @@ button:focus{
     }
     .social-media i{
         margin-top: 3%;
-        color:#16dfad; 
+        color:#1bd4a6; 
     }
 
     .button-orcamento-desktop{
@@ -348,3 +349,6 @@ button:focus{
     }
 }
 
+.logo-desktop a{
+    color: white !important;
+}
