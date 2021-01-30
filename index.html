@@ -7,6 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
+    
     <script src="https://kit.fontawesome.com/0a34987958.js" crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -16,31 +17,38 @@
         <header>
             
         <div class="center-menu">
-            <h1>Logomarca</h1>
+            <div class="logo-desktop">
+                <img src="/codeffe.logo.png"/>
+            </div><!--logo-desktop-->
             <ul>
                 <li><a href="https://mywhats.net/dragonwhite">Contato</a></li>
-                <li><a href="#">Sneakers</a></li>
+                <li><a href="#" class="alert">Sneakers</a></li>
                 <li><a href="index.html" id="selected">Home</a></li>
             </ul>
         </div><!--center-menu-->
     </header>
 
     <div class="center-menu-mobile">
-        <h1>Logomarca</h1>
+        <div class="logo-mobile">
+        <img src="/codeffe.logo.png">
+    </div><!--logo-mobile-->
         <ul>
             <li><a href="index.html" id="selected">Home</a></li>
-            <li><a href="#">Sneakers</a></li>
+            <li><a href="#" class="alertMobile">Sneakers</a></li>
             <li><a href="https://mywhats.net/dragonwhite">Contato</a></li>
         </ul>
     </div><!--center-menu-->
     </header>
-    <div class="button-orcamento-desktop">
+
+    <!--<div class="button-orcamento-desktop">
     <a href="https://criarlink.com/bjG"><button>Fazer orçamento</button></a>
 </div>
-
+-->
+<!--
 <div class="button-orcamento-mobile">
     <a href="https://criarlink.com/bjG"><button>Fazer orçamento</button></a>
 </div>
+-->
     <section>
         
         <div class="center-image">
@@ -55,7 +63,7 @@
     <div class="center-image-mobile">
         <h1>Experiencia</h1>
         <h2><b>Hypebeast</b></h2>
-        <img src="jordan1.jpg"/>
+        <img name="slides" width="350" height="350"/>
         <a href="https://mpago.la/2n7hynf"><button>Comprar</button></a>
         <p>O Air Jordan 1 Low "Game Royal" encontra o primeiro sapato de assinatura de Michael Jordan em uma altura versátil de cano baixo como parte do ciclo de lançamento do verão 2020 da Jordan Brand. Vestido em um esquema de cores semelhante ao Jordan 1 High de mesmo apelido de 2018, este Jordan 1 Low “Game Royal” é mais uma opção limpa para colecionadores de tênis e fãs de Michael Jordan. </p>
             
@@ -72,5 +80,21 @@
         </div><!-- social media-->
     </footer>
     <div class="clear"></div><!--clear-->
+    
+    <script>
+
+        var sn = document.querySelector('.alert');
+
+        sn.addEventListener('click', function(){
+            alert("Em desenvolvimento")
+        })
+
+        var snMobile = document.querySelector('.alertMobile');
+
+        snMobile.addEventListener('click',function(){
+            alert("Em desenvolvimento")
+        })
+        
+    </script>
 </body>
 </html>
